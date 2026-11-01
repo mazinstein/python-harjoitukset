@@ -2,99 +2,143 @@
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nord Coffee — Tarkistukset</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nord Coffee – Tarkistukset</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 24px;
+            background-color: #f4efe9;
+            color: #29231f;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        a {
+            color: #493327;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            text-decoration-thickness: 2px;
+        }
+
+        section {
+            margin-top: 24px;
+            padding: 24px;
+            background-color: #ffffff;
+            border-radius: 8px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-top: 16px;
+            border: 1px solid #d6ccc2;
+        }
+
+        pre {
+            padding: 16px;
+            overflow-x: auto;
+            background-color: #f4efe9;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 16px;
+            }
+
+            section {
+                padding: 16px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <div class="container">
-        <main>
-            <h1>Sivuston tarkistukset</h1>
+    <main>
+        <h1>Sivuston tarkistukset</h1>
+
+        <p>
+            <a href="index.html">Takaisin etusivulle</a>
+        </p>
+
+        <p>
+            Tällä sivulla ovat etusivun tarkistusten kuvakaappaukset
+            ja sivustolla käytetyn fontin CSS-koodi.
+        </p>
+
+        <section>
+            <h2>Fontti</h2>
 
             <p>
-                <a href="index.html">Takaisin etusivulle</a>
+                Sivuston fontti on Arial.
+                Varafontit ovat Helvetica ja sans-serif.
             </p>
 
-            <section class="check-section">
-                <h2>Fontti</h2>
-
-                <p>
-                    Sivustolla käytetään Arial-fonttia.
-                    Varafontit ovat Helvetica ja sans-serif.
-                    Fonttia ei ladata ulkoisesta palvelusta.
-                </p>
-
-                <pre><code>body {
+            <pre><code>body {
     font-family: Arial, Helvetica, sans-serif;
 }</code></pre>
-            </section>
+        </section>
 
-            <section class="check-section">
-                <h2>HTML-validointi</h2>
+        <section>
+            <h2>HTML-validointi</h2>
 
-                <h3>Home</h3>
-                <!--
-                <img src="img/validator-home.png"
-                     alt="Etusivun HTML-validoinnin tulos">
-                -->
+            <p>
+                Etusivu on tarkistettu W3C:n HTML-validaattorilla.
+                Tarkistuksessa ei löytynyt virheitä eikä varoituksia.
+            </p>
 
-                <h3>Products</h3>
-                <!--
-                <img src="img/validator-products.png"
-                     alt="Tuotesivun HTML-validoinnin tulos">
-                -->
+            <img
+                src="img/validator-home.png"
+                alt="Etusivun HTML-validoinnin tulos: ei virheitä eikä varoituksia">
+        </section>
 
-                <h3>Contact</h3>
-                <!--
-                <img src="img/validator-contact.png"
-                     alt="Yhteystietosivun HTML-validoinnin tulos">
-                -->
-            </section>
+        <section>
+            <h2>Lighthouse / PageSpeed Insights</h2>
 
-            <section class="check-section">
-                <h2>Lighthouse</h2>
+            <p>
+                Etusivun tarkistus on tehty PageSpeed Insights
+                -palvelussa Desktop-asetuksella.
+            </p>
 
-                <h3>Home</h3>
-                <!--
-                <img src="img/lighthouse-home.png"
-                     alt="Etusivun Lighthouse-tarkistuksen tulos">
-                -->
+            <img
+                src="img/lighthouse-home.png"
+                alt="Etusivun PageSpeed Insights -tarkistuksen tulokset">
+        </section>
 
-                <h3>Products</h3>
-                <!--
-                <img src="img/lighthouse-products.png"
-                     alt="Tuotesivun Lighthouse-tarkistuksen tulos">
-                -->
+        <section>
+            <h2>Kontrastitarkistus</h2>
 
-                <h3>Contact</h3>
-                <!--
-                <img src="img/lighthouse-contact.png"
-                     alt="Yhteystietosivun Lighthouse-tarkistuksen tulos">
-                -->
-            </section>
+            <p>
+                Etusivu on tarkistettu WAVE-työkalulla.
+                Tarkistuksessa ei löytynyt kontrastivirheitä.
+            </p>
 
-            <section class="check-section">
-                <h2>Kontrasti</h2>
-
-                <h3>Home</h3>
-                <!--
-                <img src="img/contrast-home.png"
-                     alt="Etusivun WAVE-kontrastitarkistuksen tulos">
-                -->
-
-                <h3>Products</h3>
-                <!--
-                <img src="img/contrast-products.png"
-                     alt="Tuotesivun WAVE-kontrastitarkistuksen tulos">
-                -->
-
-                <h3>Contact</h3>
-                <!--
-                <img src="img/contrast-contact.png"
-                     alt="Yhteystietosivun WAVE-kontrastitarkistuksen tulos">
-                -->
-            </section>
-        </main>
-    </div>
+            <img
+                src="img/contrast-home.png"
+                alt="Etusivun WAVE-tarkistus: nolla kontrastivirhettä">
+        </section>
+    </main>
 </body>
 </html>
