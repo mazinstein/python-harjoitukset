@@ -6,6 +6,8 @@ Tein kahvikaupan sivuston HTML:llä ja CSS:llä.
 
 ### JS-moduulit 1 ja 2
 
+[Avaa tehtävät selaimessa](https://mazinstein.github.io/python-harjoitukset/Ohjelmisto%202/JS_01-02/)
+
 Tehdyt tehtävät:
 
 - Tehtävä 1: 1 p
