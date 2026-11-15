@@ -17,3 +17,31 @@ Tehdyt tehtävät:
 - Tehtävä 7: 2 p
 
 **Yhteensä 11 p**
+
+### JS-moduuli 3
+
+[Avaa tehtävät selaimessa](https://mazinstein.github.io/python-harjoitukset/Ohjelmisto%202/JS_03/)
+
+Tehdyt tehtävät:
+
+- Tehtävä 1: 2 p
+- Tehtävä 2: 2 p
+- Tehtävä 3: 2 p
+- Tehtävä 8: 2 p
+- Tehtävä 9: 3 p
+
+**Yhteensä 11 p**
+
+### JS-moduuli 4
+
+[Avaa tehtävät selaimessa](https://mazinstein.github.io/python-harjoitukset/Ohjelmisto%202/JS_04/)
+
+Tehdyt tehtävät:
+
+- Tehtävä 1: 2 p
+- Tehtävä 2: 2 p
+- Tehtävä 3: 2 p
+- Tehtävä 4: 2 p
+- Tehtävä 10: 2 p
+
+**Yhteensä 10 p**
