@@ -5,8 +5,7 @@ for (let i = 0; i < 6; i++) {
     dogs.push(name);
 }
 
-dogs.sort();
-dogs.reverse();
+dogs.sort((a, b) => b.localeCompare(a, "fi"));
 
 const target = document.querySelector("#target");
 

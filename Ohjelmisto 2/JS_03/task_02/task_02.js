@@ -6,7 +6,7 @@ for (let i = 0; i < count; i++) {
     names.push(name);
 }
 
-names.sort();
+names.sort((a, b) => a.localeCompare(b, "fi"));
 
 const target = document.querySelector("#target");
 
