@@ -45,3 +45,17 @@ Tehdyt tehtävät:
 - Tehtävä 10: 2 p
 
 **Yhteensä 10 p**
+
+## Python Flask server
+
+Tehtävä 2: 10 p.
+
+Tein englanti–suomi-sanakirjan Flaskilla. Sanat ovat dictionary.json-tiedostossa. Haku toimii myös isoilla kirjaimilla. Tuntematon sana palauttaa virheen 404.
+
+Avaa selaimessa:
+
+- http://127.0.0.1:3000/translate/hello
+- http://127.0.0.1:3000/translate/HELLO
+- http://127.0.0.1:3000/translate/computer
+- http://127.0.0.1:3000/translate/piphi
+- http://127.0.0.1:3000/words
